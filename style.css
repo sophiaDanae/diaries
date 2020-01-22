@@ -1,0 +1,44 @@
+header{
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    /* border:1px solid; */
+    width:100%;
+
+}
+
+img{
+    width:350px;
+    margin-left:50px;
+    margin-right:50px;
+
+}
+
+.book{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book:hover .imgtitle{
+    display:block;
+}
+ 
+.imgtitle{
+    width:200px;
+    display:none;
+}
+/* .imgtitle:hover{
+    width:200px;
+    display:block;
+} */
+
+
+img:hover{
+    transform: scale(1.1);
+}
