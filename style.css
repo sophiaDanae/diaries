@@ -42,3 +42,17 @@ img{
 img:hover{
     transform: scale(1.1);
 }
+
+/* carousel stuff */
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter:none !important;
+ }
+#myCarousel{
+    width:80%;
+    margin:auto;
+}
+.imgcarousel{
+    width:800px;
+    margin:auto;
+}
