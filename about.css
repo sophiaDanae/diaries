@@ -1,0 +1,41 @@
+
+
+header{
+    /* margin:20px; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.container{
+    display:flex;
+}
+ .aboutimg{
+    width:60%;
+    margin:auto;
+    /* margin-right:50px; */
+
+ } 
+
+
+img{
+    width:350px;
+    margin-left:50px;
+    margin-right:50px;
+    z-index: -2;
+
+}
+canvas{
+    z-index: -1;
+
+}
+
+@media screen and (max-width: 700px) {
+    .aboutimg{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+  }
