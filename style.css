@@ -3,7 +3,9 @@ header{
     display:flex;
     flex-direction: column;
     align-items: center;
+    
 }
+
 
 .container{
     display:flex;
@@ -56,4 +58,15 @@ img:hover{
 .imgcarousel{
     width:800px;
     margin:auto;
+}
+
+.aboutbar{
+    display:flex;
+    flex-direction: row;
+justify-content: flex-end;
+
+}
+.aboutimg img{
+    width:100px;
+    align-self: flex-end;
 }
