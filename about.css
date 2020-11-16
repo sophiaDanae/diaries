@@ -1,4 +1,7 @@
-
+body{
+    margin:0;
+    padding:0;
+}
 
 header{
     /* margin:20px; */
@@ -9,18 +12,27 @@ header{
 
 }
 
-.container{
-    display:flex;
+.bodies{
+    width:500px;
 }
- .aboutimg{
+.main{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    margin:0;
+    border:1px solid;
+}
+ .description{
     width:60%;
     margin:auto;
     /* margin-right:50px; */
 
- } 
+ }  
+h2{
+    margin-top:-20px;
+}
 
-
-img{
+header img{
     width:350px;
     margin-left:50px;
     margin-right:50px;
@@ -39,3 +51,29 @@ canvas{
         padding:0;
     }
   }
+
+  .aboutbar{
+    display:flex;
+  
+    flex-direction: row;
+justify-content: space-between;
+
+}
+.aboutimg img{
+    width:100px;
+
+}
+
+img:hover{
+    transform: scale(1.1);
+    
+}
+
+.bodies{
+    width:40%;
+}
+
+main{
+    display:flex;
+    justify-content: space-between;
+}
