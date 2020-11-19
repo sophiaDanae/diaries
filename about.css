@@ -70,10 +70,13 @@ img:hover{
 }
 
 .bodies{
-    width:40%;
+    width:45%;
+    min-width:500px;
+
 }
 
 main{
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
