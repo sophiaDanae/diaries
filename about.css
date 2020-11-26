@@ -71,10 +71,10 @@ img:hover{
 
 .bodies{
     width:700px;
-    min-width:500px;
+    min-width:600px;
     position: relative;
     top:-300px;
-    right:-200px;
+    right:-100px;
 
 }
 
@@ -82,6 +82,10 @@ main{
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-image: url("photo diaries.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:1200px;
 }
 
 .description{
@@ -90,5 +94,19 @@ main{
 }
 
 .intro{
+    margin-top:100px;
     width:40%;
+    min-width:500px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .bodies{
+        width:300px;
+        position: relative;
+        top:-300px;
+        right:-50px;
+    
+    } 
 }
