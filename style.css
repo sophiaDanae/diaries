@@ -14,6 +14,7 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    height: 600px;
 
 }
 
@@ -73,7 +74,10 @@ img:hover{
     width:800px;
     margin:auto;
 }
-
+.mikroulicarousel{
+    width:500px;
+    margin:auto;
+}
 .aboutbar{
     display:flex;
     flex-direction: row;
