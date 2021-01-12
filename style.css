@@ -62,6 +62,11 @@ img:hover{
     
 }
 
+.item img{
+    transform:none;
+
+}
+
 /* carousel stuff */
 .carousel-control.left, .carousel-control.right {
     background-image:none !important;
